@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace akvelom_test_task.Models
 {
+    [Keyless]
     public class Task
     {
         public int id_card { get; set; }
